@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.css";
 
+import MainHeader from "./shared/Navigation/MainHeader";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Portfolio Home!</header>
+      <MainHeader />
     </div>
   );
 }
